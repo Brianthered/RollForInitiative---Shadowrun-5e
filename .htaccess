@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^rfi\.gamergadgets\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rfi\.gamergadgets\.net$
+RewriteRule ^/?$ "http\:\/\/www\.gamergadgets\.net\/rollforinitiative" [R=301,L]
+
